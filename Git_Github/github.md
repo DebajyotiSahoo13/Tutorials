@@ -85,6 +85,10 @@ git add -u
 
 # Working Directory → Staging Area (Index)
 #    (modified files)     (selected changes)
+
+git restore --staged file_name 
+# to unstage a file
+
 ```
 
 ### Committing Changes/Saving Files
@@ -136,6 +140,7 @@ git branch feature-login
 
 # Switch to the new feature branch
 git checkout feature-login
+git checkout -b new_branch
 
 # Delete local branch
 git branch -d old-feature
