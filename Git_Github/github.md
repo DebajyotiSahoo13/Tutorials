@@ -92,6 +92,7 @@ git restore --staged file_name
 ```
 
 ### Committing Changes/Saving Files
+https://github.com/conventional-changelog/commitlint?tab=readme-ov-file
 
 - Permanently saving the staged changes to your local repository with a descriptive message.
 
