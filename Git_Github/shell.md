@@ -1,4 +1,3 @@
-# Tutorials
 ## Basic Shell Commands
 ### 1. `pwd` - Print Working Directory
 ```bash
