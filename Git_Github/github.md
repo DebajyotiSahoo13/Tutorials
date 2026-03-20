@@ -85,9 +85,14 @@ git add -u
 
 # Working Directory → Staging Area (Index)
 #    (modified files)     (selected changes)
+
+git restore --staged file_name 
+# to unstage a file
+
 ```
 
 ### Committing Changes/Saving Files
+https://github.com/conventional-changelog/commitlint?tab=readme-ov-file
 
 - Permanently saving the staged changes to your local repository with a descriptive message.
 
@@ -136,6 +141,7 @@ git branch feature-login
 
 # Switch to the new feature branch
 git checkout feature-login
+git checkout -b new_branch
 
 # Delete local branch
 git branch -d old-feature
